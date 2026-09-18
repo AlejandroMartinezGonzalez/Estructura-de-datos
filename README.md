@@ -5,13 +5,11 @@
 
 ##  Contenido del proyecto
 
- Archivo  Descripción 
-
- `ArrayList.java`  Lista basada en un arreglo dinámico 
- `MiListaEnlazada.java`  Lista basada en nodos enlazados 
- `Main.java`  Punto de entrada con todas las pruebas 
- `README.md` Este documento 
- `Nodo.java`  La clase nodo 
+- `ArrayList.java`  Lista basada en un arreglo dinámico.   
+- `MiListaEnlazada.java`  Lista basada en nodos enlazados.   
+- `Main.java`  Punto de entrada con todas las pruebas.   
+- `README.md` Este documento.   
+- `Nodo.java`  La clase nodo.   
 ---
 
 ##  `MiArrayList<T>` — Lista basada en arreglo
@@ -60,18 +58,6 @@ try {
     System.out.println("ERROR: " + e.getMessage());
 }
 ```
-
-
-### Casos de error cubiertos
-
- Prueba 
-
- `obtener(99)` en lista pequeña  `RuntimeException` 
- `obtener(-1)`  `RuntimeException` 
- `eliminar(50)`  `RuntimeException` 
- `obtener(10)` en lista vacía  `RuntimeException` 
-
-
 ##  Conclusión
 
 - Se implementaron **dos estructuras de datos** desde cero.
